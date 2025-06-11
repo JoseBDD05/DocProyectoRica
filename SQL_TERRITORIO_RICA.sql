@@ -458,19 +458,19 @@ VALUES
 
 INSERT INTO CATALOGO_PRODUCTOS (CATA_NOMBRE, CVE_CATEGORIA, CATA_PRECIO, CATA_CODIGO_BARRAS)
 VALUES 
-('Coca-Cola Original', 8, 22.00, '000000000001'),
-('Coca-Cola Sin Azúcar', 8, 23.00, '000000000002'),
-('Coca-Cola Light', 8, 25.00, '000000000003'),
-('Mundet', 9, 20.00, '000000000004'),
-('Sprite', 9, 21.00, '000000000005'),
-('Fanta', 9, 22.00, '000000000006'),
-('Fresca', 9, 22.00, '000000000007'),
-('Santa Clara', 10, 30.00, '000000000008'),
-('AdeS', 11, 35.00, '000000000009'),
-('Fuze Tea', 10, 25.00, '000000000010'),
-('Topo Chico', 13, 25.00, '000000000011'),
-('Costa Coffee', 12, 25.00, '000000000012'),
-('Flashlyte', 13, 25.00, '000000000013');
+('Coca-Cola Original', 1, 22.00, '000000000001'),
+('Coca-Cola Sin Azúcar', 1, 23.00, '000000000002'),
+('Coca-Cola Light', 1, 25.00, '000000000003'),
+('Mundet', 2, 20.00, '000000000004'),
+('Sprite', 2, 21.00, '000000000005'),
+('Fanta', 2, 22.00, '000000000006'),
+('Fresca', 2, 22.00, '000000000007'),
+('Santa Clara', 3, 30.00, '000000000008'),
+('AdeS', 4, 35.00, '000000000009'),
+('Fuze Tea', 3, 25.00, '000000000010'),
+('Topo Chico', 6, 25.00, '000000000011'),
+('Costa Coffee', 5, 25.00, '000000000012'),
+('Flashlyte', 6, 25.00, '000000000013');
 
 INSERT INTO CANAL_VENTA (VEN_TIPO_DESCRIPCION)
 VALUES 
@@ -483,28 +483,28 @@ INSERT INTO CATALOGO_SKU (
     SKU_VOLUMEN_ML, SKU_EMPAQUETADO, CVE_CATALOGO,
     CVE_CANAL, SKU_STOCK, SKU_RUTAIMAGEN)
 VALUES
-('SKU0001', 'Coca-Cola Original', 8, 600, 'Botella PET', 14, 1, 1000, 'img/coca_original.jpg'),
-('SKU0002', 'Coca-Cola Sin Azúcar', 8, 600, 'Botella PET', 15, 1, 10000, 'img/coca_zero.jpg'),
-('SKU0003', 'Coca-Cola Light', 8, 600, 'Botella PET', 16, 1, 1600, 'img/coca_light.jpg'),
-('SKU0004', 'Mundet Manzana', 9, 600, 'Botella PET', 17, 2, 1200, 'img/mundet.jpg'),
-('SKU0005', 'Sprite', 9, 600, 'Botella PET', 18, 2, 800, 'img/sprite.jpg'),
-('SKU0006', 'Fanta Naranja', 9, 600, 'Botella PET', 19, 2, 900, 'img/fanta.jpg'),
-('SKU0007', 'Fresca Citrus', 9, 600, 'Botella PET', 20, 1, 900, 'img/fresca.jpg'),
-('SKU0008', 'Leche Santa Clara', 10, 1000, 'Tetra Pak', 21, 3, 700, 'img/santa_clara.jpg'),
-('SKU0009', 'AdeS Almendra', 11, 946, 'Tetra Pak', 22, 3, 600, 'img/ades.jpg'),
-('SKU0010', 'Fuze Tea Durazno', 10, 600, 'Botella PET', 23, 3, 850, 'img/fuze_tea.jpg'),
-('SKU0011', 'Topo Chico', 13, 500, 'Botella PET', 24, 2, 750, 'img/topo_chico.jpg'),
-('SKU0012', 'Costa Coffee', 12, 240, 'Lata', 25, 3, 500, 'img/costa_coffee.jpg'),
-('SKU0013', 'Flashlyte Hidratante', 13, 500, 'Botella PET', 26, 2, 900, 'img/flashlyte.jpg');
+('SKU0001', 'Coca-Cola Original', 1, 600, 'Botella PET', 14, 1, 1000, 'img/coca_original.jpg'),
+('SKU0002', 'Coca-Cola Sin Azúcar', 1, 600, 'Botella PET', 15, 1, 10000, 'img/coca_zero.jpg'),
+('SKU0003', 'Coca-Cola Light', 1, 600, 'Botella PET', 16, 1, 1600, 'img/coca_light.jpg'),
+('SKU0004', 'Mundet Manzana', 2, 600, 'Botella PET', 17, 2, 1200, 'img/mundet.jpg'),
+('SKU0005', 'Sprite', 2, 600, 'Botella PET', 18, 2, 800, 'img/sprite.jpg'),
+('SKU0006', 'Fanta Naranja', 2, 600, 'Botella PET', 19, 2, 900, 'img/fanta.jpg'),
+('SKU0007', 'Fresca Citrus', 2, 600, 'Botella PET', 20, 1, 900, 'img/fresca.jpg'),
+('SKU0008', 'Leche Santa Clara', 4, 1000, 'Tetra Pak', 21, 3, 700, 'img/santa_clara.jpg'),
+('SKU0009', 'AdeS Almendra', 4, 946, 'Tetra Pak', 22, 3, 600, 'img/ades.jpg'),
+('SKU0010', 'Fuze Tea Durazno', 3, 600, 'Botella PET', 23, 3, 850, 'img/fuze_tea.jpg'),
+('SKU0011', 'Topo Chico', 6, 500, 'Botella PET', 24, 2, 750, 'img/topo_chico.jpg'),
+('SKU0012', 'Costa Coffee', 5, 240, 'Lata', 25, 3, 500, 'img/costa_coffee.jpg'),
+('SKU0013', 'Flashlyte Hidratante', 6, 500, 'Botella PET', 26, 2, 900, 'img/flashlyte.jpg');
 
 
 INSERT INTO VENTAS (
     VEN_FECHA, CVE_SKU, CVE_CATEGORIA, VEN_CANTIDAD,
     VEN_PRECIO_UNITARIO, VEN_COSTO_UNITARIO, CVE_CANAL, VEN_TOTAL_VENTA)
 VALUES
-('2025-06-01', 1, 8, 100, 22.00, 15.00, 1, 2200.00),
-('2025-06-02', 2, 8, 80, 23.00, 15.00, 1, 1840.00),
-('2025-06-02', 4, 9, 50, 20.00, 12.00, 2, 1000.00),
-('2025-06-03', 7, 9, 120, 22.00, 14.50, 1, 2640.00),
-('2025-06-04', 10, 10, 60, 25.00, 15.00, 2, 1500.00);
+('2025-06-01', 1, 1, 100, 22.00, 15.00, 1, 2200.00),
+('2025-06-02', 2, 1, 80, 23.00, 15.00, 1, 1840.00),
+('2025-06-02', 4, 2, 50, 20.00, 12.00, 2, 1000.00),
+('2025-06-03', 7, 2, 120, 22.00, 14.50, 1, 2640.00),
+('2025-06-04', 10, 3, 60, 25.00, 15.00, 2, 1500.00);
 
